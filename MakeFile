@@ -1,0 +1,8 @@
+all:
+	g++ -Wall main.cpp biggest_divisible_conglomerate.cpp -o bdc
+
+run:
+	./bdc
+
+try: 
+	all run
